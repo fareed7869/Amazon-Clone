@@ -44,6 +44,7 @@
 .address-dlv {
   color: #cccccc;
   font-size: 0.8rem;
+  margin-left: 16px;
 
 }
 
@@ -63,7 +64,7 @@
   display: flex;
   justify-content: space-evenly;
   height: 40px;
-  width: 680px;
+  width: 720px;
   border-radius: 5px;
   background-color: aqua;
 }
@@ -150,4 +151,32 @@
     padding: 10px;
     font-size: 0.90rem;
     font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222e3b;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.panel-all{
+    margin-left: 20px;
+    padding: 10px;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+/* hero-img-section */
+
+.hero-img-section{
+    height: 600px;
+    background-image: url("hero_img.jpg");
+    background-size: cover;
 }
